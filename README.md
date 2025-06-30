@@ -10,27 +10,32 @@ As part of my cybersecurity learning journey, I wanted to create something I cou
 
 ## 🔍 What It Does
 
-- Calculates SHA256 hashes for file verification
-- Scans text files using custom YARA rules
-- Logs suspicious results in text and CSV format
+- Calculates SHA256 hashes for uploaded text files.
+- Scans files using custom YARA rules to detect specific strings or behaviors.
+- Logs suspicious results into clear, readable reports (`.txt` or `.csv`).
+- Simulates how a real analyst would process suspicious artifacts during triage.
 
 ---
 
 ## 📁 What’s Inside
 
-- `/scripts` – Python scripts that handle scanning and logging
-- `/yara_rules` – Sample YARA rules
-- `/sample_logs` – Example logs you can scan
-- `simulated_malware.txt` – Fake malware text to test detection
-- `scan_report_simulated_malware.txt` – Example output
-- `suspicious_activity_output.csv` – CSV format of detection logs
+- `scripts/` – Python files for hashing, scanning, and report generation.
+- `sample_logs/` – Sample logs for practicing detection logic.
+- `yara_rules/` – Custom rules to simulate real-world threat patterns.
+- `simulated_malware.txt` – A sample text file with a detectable string.
+- `scan_report_simulated_malware.txt` – The output report from a YARA scan.
 
 ---
 
-## ▶️ How To Run It
+## ▶️ How to Run It
 
-Make sure Python is installed, then:
+1. Clone the repo:  
+   `git clone https://github.com/Yvonne-Arteaga-Cyber/smart-incident-triage.git`
 
-```bash
-pip install -r requirements.txt
-python scripts/forensic_checks.py
+2. Navigate into the folder:  
+   `cd smart-incident-triage`
+
+3. Run the tool:  
+   `python scripts/incident_triage_tool.py`
+
+Make sure you have Python installed. It works best in a local dev environment for now.
