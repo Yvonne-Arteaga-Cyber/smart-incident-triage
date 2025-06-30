@@ -1,6 +1,10 @@
-# Smart Incident Triage Tool
+# 🛠️ Smart Incident Triage Tool
 
-This project was created to simulate a basic forensic triage process using Python and YARA. It helped me understand how analysts run hash checks, apply rules to detect threats, and log everything they find. I learned a lot doing this and wanted it to look and feel real.
+This project was created to simulate a basic incident response toolkit. It helps me understand how analysts run hash checks, apply rules to detect suspicious patterns, and log findings. I wanted it to look and feel real.
+
+## 🧠 Why I Built It
+
+As part of my cybersecurity learning journey, I wanted to create something I could use to show I understand how basic forensic tools work. I made this project from scratch to practice scripting, detection logic, and building clean outputs that could be used in real-world triage.
 
 ---
 
